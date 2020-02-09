@@ -1,0 +1,25 @@
+[
+    {
+        "name": "FirstGame",
+        "code": "6ti732tr9eyfy",
+        "gameState": "Waiting",
+        "isStarted": false,
+        "isWhiteTurn": true,
+        "chessboard": [
+            [ "R", "N", "B", "K", "Q", "B", "N", "R" ],
+            [ "P", "P", "P", "P", "P", "P", "P", "P" ],
+            [ " ", " ", " ", " ", " ", " ", " ", " " ],
+            [ " ", " ", " ", " ", " ", " ", " ", " " ],
+            [ " ", " ", " ", " ", " ", " ", " ", " " ],
+            [ " ", " ", " ", " ", " ", " ", " ", " " ],
+            [ "p", "p", "p", "p", "p", "p", "p", "p" ],
+            [ "r", "n", "b", "k", "q", "b", "n", "r" ]
+        ],
+        "time": 3,
+        "increment": 2,
+        "whitePlayerId": "W12930912u0e9j",
+        "blackPlayerId": "B21eh08hd8hsh2",
+        "moves": ["g2 g4", "e7 e6", "f2 f3", "d8 h4"],
+        "numberOfMoves": 4
+    }
+]

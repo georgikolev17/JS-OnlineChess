@@ -1,0 +1,42 @@
+{{> header}}
+
+{{#if isAuth}}
+    <table id="customers">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Game State</th>
+            <th>Time</th>
+            <th>Join Game</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each games}}
+        {
+        <tr>
+            <td>{{name}}</td>
+            <td>{{gameState}}</td>
+            <td>{{time}}|{{increment}}</td>
+            <td>
+                {{#if isStarted}}
+                    Game has started.
+                {{else}}
+                    <button>Join</button>
+                {{/if}}
+            </td>
+        </tr>
+        {{else}}
+            <h1>No games found!</h1>
+        {{/each}}
+    </tbody>
+</table>
+
+{{else}}
+    <main role="main" class="inner cover mt-5">
+        <h1 class="cover-heading">Play chess with players all over the world!</h1>
+        <p class="lead">Here's a website where you can play chess for free.
+        </p>
+    </main>
+{{/if}}
+
+{{> footer}}

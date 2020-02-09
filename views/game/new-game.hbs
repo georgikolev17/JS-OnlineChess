@@ -1,0 +1,15 @@
+{{> header}}
+
+<form class="text-center p-5 form-layout" action="/new-game" method="POST" id="share-receipt-form">
+    <p class="h4 mb-4">Create new game</p>
+
+    <input type="text" id="defaultRecepieShareMeal" name="name" class="form-control mb-4" placeholder="Name">
+    <p>
+        <input type="number" placeholder="mins" name="minutes">
+        <input type="number" placeholder="inc" name="increment">
+    </p>
+
+    <button class="btn btn-danger w-25 m-auto my-4 btn-block" type="submit">New Game</button>
+</form>
+
+{{> footer}}
